@@ -8,7 +8,7 @@ client.on('ready', () => {
     client.user.setPresence({
         status: "dnd",  //You can show online, idle....
         game: {
-            name: "disabled features until skritt doesn't have administrator",  //The message shown
+            name: "disabled features until skritt will fucking calm down and stop threatening dinem",  //The message shown
             type: "PLAYING" //PLAYING: WATCHING: LISTENING: STREAMING:
         }
     });
