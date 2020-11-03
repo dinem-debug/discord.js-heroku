@@ -323,7 +323,7 @@ client.on('message', msg => {
                 mem.setVoiceChannel(null)});
             },2000);
         }
-        else if ((ms.includes('nig') || ms.includes('Ниг') || ms.includes('ניג') || ms.includes('chicken')
+        else if ((ms.includes('nig') || ms.includes('Ниг') || ms.includes('ניג') 
             || ms.includes('nugget') || ms.includes('biscuit') || ms.includes('ציקן') || ms.includes('נאגט')
             || ms.includes('ביסקוויט')|| ms.includes('נייגר')|| ms.includes('נגר')|| ms.includes('lo fi')|| ms.includes('אמאשך')|| ms.includes('אמא שך')|| ms.includes('אבא שך')|| ms.includes('אבא שלך')|| ms.includes('אמא שלך')|| ms.includes('lo fi')|| ms.includes('אבאשך')|| ms.includes('toxic')|| ms.includes('טוקסיק')|| ms.includes('ni gg')|| ms.includes('nagar')|| ms.includes('naygar')|| ms.includes('naagar'))
             && msg.channel.id !== '703603549191405638' && !msg.member.roles.some(r=>["Vedeloper"].includes(r.name))) {
