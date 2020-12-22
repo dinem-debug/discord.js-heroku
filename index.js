@@ -4,12 +4,12 @@ const client = new Discord.Client();
 const fs = require('fs');
 
 client.on('ready', () => {
-    client.user.setActivity('imagine being a living sack of shit');
-    /*client.user.setPresence({
+    /client.user.setActivity('poggers');
+    *client.user.setPresence({
         status: "dnd",  //You can show online, idle....
         game: {
-            name: "disabled features until skritt doesn't have administrator",  //The message shown
-            type: "PLAYING" //PLAYING: WATCHING: LISTENING: STREAMING:
+            name: "your mom ass getting blowed out",  //The message shown
+            type: "STREAMING" //PLAYING: WATCHING: LISTENING: STREAMING:
         }
     });*/
 });
